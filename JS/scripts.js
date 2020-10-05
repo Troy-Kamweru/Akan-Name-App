@@ -15,7 +15,7 @@ function displayResults() {
       } else if (month < 1 || month > 12 || (month == 2 && day > 29)) {
         alert("Enter valid day");
         return false;
-      } else if (year < 1950 || year > 2050) {
+      } else if (year < 1930 || year > 2050) {
         alert("Enter valid year");
         return false;
       }
