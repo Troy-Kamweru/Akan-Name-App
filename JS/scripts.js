@@ -36,3 +36,10 @@ function displayResults() {
         }
       }
     }
+
+    function resetFields() {
+        document.getElementById("month").value = "";
+        document.getElementById("year").value = "";
+        document.getElementById("day").value = "";
+        document.getElementById("gender").value = "";
+      }
